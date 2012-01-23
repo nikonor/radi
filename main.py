@@ -32,11 +32,10 @@ class MainUser():
     
     def __init__(self):
         self.data = {}
-        self.data['fname'] = "Main"
-        self.data['mname'] = "T"
-        self.data['lname'] = "User"
+        self.data['fname'] = "Иван"
+        self.data['mname'] = "Петрович"
+        self.data['lname'] = "Сидоров"
         self.data['age'] = 29
-        self.data['rus'] = 'никонор'
     
     def get(self,k):
         # print ("get return %s" % self.data[k])
@@ -66,10 +65,10 @@ class AjaxHandler(webapp.RequestHandler):
             ret = {}
             ret["name"] = mu.get('fname')+' '+mu.get('mname')+' '+mu.get('lname');
             ret["age"] = mu.get('age');
-            ret["rus"] = mu.get('rus')
             # self.response.out.write(ret)
             # json.dumps(self.response, ret)
             self.response.headers['Content-Type'] = 'application/json'
+            # GAE ajax unicode
             self.response.out.write(json.dumps(ret,ensure_ascii=False))
     	else:
     		ret = self.nott()

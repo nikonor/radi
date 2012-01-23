@@ -36,7 +36,7 @@ class MainUser():
         self.data['mname'] = "T"
         self.data['lname'] = "User"
         self.data['age'] = 29
-        self.data['rus'] = 'юйц'
+        self.data['rus'] = 'никонор'
     
     def get(self,k):
         # print ("get return %s" % self.data[k])
@@ -70,7 +70,7 @@ class AjaxHandler(webapp.RequestHandler):
             # self.response.out.write(ret)
             # json.dumps(self.response, ret)
             self.response.headers['Content-Type'] = 'application/json'
-            self.response.out.write(json.dumps(ret))
+            self.response.out.write(json.dumps(ret,ensure_ascii=False))
     	else:
     		ret = self.nott()
     		self.response.out.write("AJAX rulezzzzz")

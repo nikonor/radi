@@ -1,0 +1,11 @@
+application: radi
+version: 1
+runtime: python
+api_version: 1
+
+handlers:
+- url: /st
+  static_dir: st
+
+- url: .*
+  script: main.py

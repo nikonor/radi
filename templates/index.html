@@ -1,0 +1,33 @@
+<!doctype html> 
+<html lang="ru">
+  <head>
+  	<!-- templates/index.html //-->
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="/st/style.css" type="text/css">
+	<script type="text/javascript" src="/st/jquery-1.7.1.js"></script>
+	<script type="text/javascript" src="/st/index.js"></script>
+  </head>
+  <body>
+  <form>
+  	<div id="top"  class="other_div" style="text-valing:center; height:25px;">
+      <div id="home" style="float:left;">
+        <a href="/">Home</a>
+      </div>
+      <div id="search" style="float:left;">
+        <input type="search" id="fc" placeholder="Строка для поиска" size="20" name="fc">
+      </div>
+      <div id="logout" style="float:right;">
+        Вы: <a href="{{logout_url}}">{{username}}</a>
+      </div>
+      <br/>
+  	</div>
+    <br/>
+    <div id="main" class="main_div left">
+    </div>
+    <br/>
+    <div id="bottom" class="other_div center">
+      TK: тут будут связи с людьми
+    </div>
+  </form>
+  </body>
+</html>

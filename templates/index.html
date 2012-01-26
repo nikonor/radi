@@ -45,14 +45,17 @@
   <body>
   <form>
   	<div id="top"  class="other_div" style="text-valing:center; height:25px;">
-      <div id="home" style="float:left;">
-        <a href="/">Home</a>
+      <div style="float:left;">
+        <a href="/"><b>Root</b></a>
       </div>
-      <div id="search" style="float:left;">
+      <div style="float:left;">
+        <input type="button" value="+" onClick="addUser();">
+      </div>
+      <div style="float:left;">
         <input type="search" id="fc" placeholder="Строка для поиска" size="20" name="fc">
       </div>
-      <div id="logout" style="float:right;">
-        Вы: <a href="{{logout_url}}">{{username}}</a>
+      <div style="float:right;">
+        <a href="{{logout_url}}" title="Exit">{{username}}</a>
       </div>
       <br/>
   	</div>

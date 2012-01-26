@@ -76,6 +76,10 @@ function addRel(id){
 	alert('Add rel form for ID='+id);
 }
 
+function addUser(id){
+	alert('Add New User');
+}
+
 
 function analyze(k_str,v_str){
 	// TK сделать анализатор

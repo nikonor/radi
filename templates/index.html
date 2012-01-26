@@ -4,8 +4,43 @@
   	<!-- templates/index.html //-->
     <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <link rel="stylesheet" href="/st/style.css" type="text/css">
-	<script type="text/javascript" src="/st/jquery-1.7.1.js"></script>
-	<script type="text/javascript" src="/st/index.js"></script>
+  	<script type="text/javascript" src="/st/jquery-1.7.1.js"></script>
+  	<script type="text/javascript" src="/st/index.js"></script>
+    <script type="text/javascript" src="/st/jquery.tmpl.min.js"></script>
+    {% verbatim %}
+      <script id="plusButtonForContact" type="text/x-jquery-tmpl">
+        <input type="button" value="+" onClick="addContact(${id});">
+      </script>
+      <script id="plusButtonForRel" type="text/x-jquery-tmpl">
+        <input type="button" value="+" onClick="addRel(${id});">
+      </script>
+
+      <script id="contactElement" type="text/x-jquery-tmpl">
+        <div>
+          <span id="ct${i}" class="contactType">${key}</span>&nbsp;
+          <span id="cv${i}" class="contactValue">
+              {{if type == 'email'}}
+                  <a href="mailto:${value}" class="${type}">
+              {{else type == 'twitter'}}
+                <a href="https://twitter.com/#!/${value}" target="_blank" class="${type}">
+              {{/if}}
+              ${value}
+              {{if type}}
+                  </a>
+              {{/if}}
+          </span>
+        </div>
+      </script>
+      <script id="relElement" type="text/x-jquery-tmpl">
+        <span id="rel${i}" class="rel">
+          &nbsp;&nbsp;
+          <a href="#" title="${type}" id="user${id}" onClick="showUser(${id});">
+            ${name} (${type})
+          </a>
+          &nbsp;&nbsp;
+        </span>&nbsp;&nbsp;
+      </script>
+    {% endverbatim %} 
   </head>
   <body>
   <form>
@@ -26,7 +61,6 @@
     </div>
     <br/>
     <div id="bottom" class="other_div center">
-      TK: тут будут связи с людьми
     </div>
   </form>
   </body>

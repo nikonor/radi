@@ -25,30 +25,21 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 # from google.appengine.dist import use_library
 # use_library('django', '1.0')
 from django.utils import simplejson as json
+template.register_template_library('verbatim_templatetag')
+from user import User
 
 # http://code.google.com/intl/ru/appengine/docs/python/gettingstarted/usingwebapp.html
 
-class MainUser():
-    
-    def __init__(self):
-        self.data = {}
-        self.data['fname'] = "Иван"
-        self.data['mname'] = "Петрович"
-        self.data['lname'] = "Сидоров"
-        self.data['age'] = 29
-    
-    def get(self,k):
-        # print ("get return %s" % self.data[k])
-        return self.data[k]
-
+##################
+#
+#   Главная форма
+#
+##################
 class MainHandler(webapp.RequestHandler):
+    
     def get(self):
-    	# получаем главную форму
 		user = users.get_current_user()
-
 		if user:
-			# self.response.headers['Content-Type'] = 'text/plain'
-			# self.response.out.write('Hello, ' + user.nickname())
 			template_values = {'username': user.nickname(),
 								'logout_url':users.create_logout_url("/")}
 			path = os.path.join(os.path.dirname(__file__), 'templates/index.html')
@@ -56,26 +47,41 @@ class MainHandler(webapp.RequestHandler):
 		else:
 			self.redirect(users.create_login_url(self.request.uri))
 
+##################
+#
+#   Основные ajax вызовы
+#
+##################
+
 class AjaxHandler(webapp.RequestHandler):
     def get(self):
-    	do_what = self.request.get('do_what')
-    	ret = ''
-    	if do_what == 'mainuser':
-            mu = MainUser();
-            ret = {}
-            ret["name"] = mu.get('fname')+' '+mu.get('mname')+' '+mu.get('lname');
-            ret["age"] = mu.get('age');
-            # self.response.out.write(ret)
-            # json.dumps(self.response, ret)
-            self.response.headers['Content-Type'] = 'application/json'
-            # GAE ajax unicode
-            self.response.out.write(json.dumps(ret,ensure_ascii=False))
-    	else:
-    		ret = self.nott()
-    		self.response.out.write("AJAX rulezzzzz")
+        ret = ''
+        # Сперва защита
+        user = users.get_current_user()
+        if not user:
+            ret = "Error"
+        else:
+            # Потом работа
+            do_what = self.request.get('do_what')      
+            if do_what == 'user':
+                who = int(self.request.get('id'))
+                ret = self.getUser(who)
+                self.response.headers['Content-Type'] = 'application/json'
+                ret = json.dumps(ret,ensure_ascii=False)
+            else:
+                # Прочие ситуации
+                ret =" AJAX rulezzzzz"
 
-    def nott(self):
-    	return 'пусто'
+        self.response.out.write(ret)
+
+
+    # получаем данные пользователя по id
+    def getUser(self,id):
+        u = User(id);
+        ret = u.getall()
+        self.response.headers['Content-Type'] = 'application/json'
+        return ret
+
 
 def main():
     application = webapp.WSGIApplication([('/', MainHandler),

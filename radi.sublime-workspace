@@ -1,0 +1,976 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sa",
+				"salesman_id"
+			],
+			[
+				"sale",
+				"salesman"
+			],
+			[
+				"get_",
+				"get_comm_client"
+			],
+			[
+				"selec",
+				"selectrow_array"
+			],
+			[
+				"on",
+				"onChangeClient"
+			],
+			[
+				"cha",
+				"changeDogType"
+			],
+			[
+				"se",
+				"search"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"pro",
+				"prop"
+			],
+			[
+				"do",
+				"dog_id"
+			],
+			[
+				"rea",
+				"readDogData"
+			],
+			[
+				"is",
+				"is_salesman"
+			],
+			[
+				"RE",
+				"REMOTE_USER"
+			],
+			[
+				"div",
+				"divDebug"
+			],
+			[
+				"de",
+				"dend"
+			],
+			[
+				"d",
+				"dbeg"
+			],
+			[
+				"av",
+				"av_volume"
+			],
+			[
+				"av_d",
+				"av_dend"
+			],
+			[
+				"db",
+				"dbeg"
+			],
+			[
+				"vol",
+				"volume"
+			],
+			[
+				"пери",
+				"периоды"
+			],
+			[
+				"перио",
+				"период"
+			],
+			[
+				"k_",
+				"k_percent"
+			],
+			[
+				"ol",
+				"old_array"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"row",
+				"row_id"
+			],
+			[
+				"ab_",
+				"ab_k_ue"
+			],
+			[
+				"ds_",
+				"ds_sdate"
+			],
+			[
+				"pr",
+				"prop"
+			],
+			[
+				"fnt",
+				"fnDTS"
+			],
+			[
+				"in",
+				"input4"
+			],
+			[
+				"bo",
+				"bonus4change_count"
+			],
+			[
+				"inpu",
+				"input"
+			],
+			[
+				"new",
+				"new_tr"
+			],
+			[
+				"al",
+				"align"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"tbl",
+				"tblParList"
+			],
+			[
+				"bor",
+				"border	border-width: size"
+			],
+			[
+				"border",
+				"border	border-color: color"
+			],
+			[
+				"tr",
+				"trVol"
+			],
+			[
+				"di",
+				"disabled"
+			],
+			[
+				"ds",
+				"ds_rules"
+			],
+			[
+				"dos",
+				"dostavka_id"
+			],
+			[
+				"select",
+				"selected"
+			],
+			[
+				"class",
+				"class_id"
+			],
+			[
+				"cla",
+				"classes"
+			],
+			[
+				"err",
+				"errstr"
+			],
+			[
+				"get",
+				"get_param"
+			],
+			[
+				"dog",
+				"dog_no"
+			],
+			[
+				"par",
+				"param"
+			],
+			[
+				"make",
+				"make_form"
+			],
+			[
+				"clie",
+				"clients"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"пун",
+				"пункт"
+			],
+			[
+				"ука",
+				"указан"
+			],
+			[
+				"file",
+				"filename"
+			],
+			[
+				"addus",
+				"adduserform"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"ge",
+				"getUser"
+			],
+			[
+				"ap",
+				"append"
+			],
+			[
+				"con",
+				"contactElement"
+			],
+			[
+				"cur",
+				"cur_curs"
+			],
+			[
+				"gro",
+				"group_id"
+			],
+			[
+				"__ite",
+				"__items_list"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"IS",
+				"ISNULL"
+			],
+			[
+				"client",
+				"client_id"
+			],
+			[
+				"cli",
+				"client_id"
+			],
+			[
+				"ite",
+				"item_id"
+			],
+			[
+				"func",
+				"function"
+			],
+			[
+				"butto",
+				"buttons"
+			],
+			[
+				"bu",
+				"buttons"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"max",
+				"max_skidka"
+			],
+			[
+				"row_",
+				"row_id2"
+			],
+			[
+				"DBM",
+				"DBNAME"
+			],
+			[
+				"DB",
+				"DBNAME2"
+			],
+			[
+				"sel",
+				"self"
+			],
+			[
+				"fore",
+				"foreach"
+			],
+			[
+				"user_i",
+				"user_in_group"
+			],
+			[
+				"ale",
+				"alert"
+			],
+			[
+				"Main",
+				"MainUser"
+			],
+			[
+				"doc_",
+				"doc_no"
+			],
+			[
+				"doc_i",
+				"doc_items"
+			],
+			[
+				"la",
+				"letssave"
+			],
+			[
+				"im",
+				"import"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.yaml",
+			"settings":
+			{
+				"buffer_size": 471,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "main.py",
+			"settings":
+			{
+				"buffer_size": 2838,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "object.py",
+			"settings":
+			{
+				"buffer_size": 1076,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "st/index.js",
+			"settings":
+			{
+				"buffer_size": 2046,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "st/style.css",
+			"settings":
+			{
+				"buffer_size": 680,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/index.html",
+			"settings":
+			{
+				"buffer_size": 2379,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/Python/Python.sublime-build",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"hg",
+				"Set Syntax: SublimeHg Command Line"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 122.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": true,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nikonor/work/GAE/R/radi/st/index.js",
+		"/Users/nikonor/work/GAE/R/radi/main.py",
+		"/Users/nikonor/work/GAE/R/radi/object.py",
+		"/Users/nikonor/work/GAE/R/radi/st/style.css",
+		"/Users/nikonor/work/GAE/R/radi/templates/index.html",
+		"/Users/nikonor/work/GAE/radi/st/style.css",
+		"/Users/nikonor/work/GAE/radi/st/index.js",
+		"/Users/nikonor/work/GAE/radi/templates/index.html",
+		"/Users/nikonor/work/GAE/radi/main.py",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/dop_sogl.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/dop_sogl_edit.tmpl",
+		"/Users/nikonor/Library/Application Support/Evernote/external edits/A4B8F25A-07B0-41D2-A19D-39D766FAF485/req.txt",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/html/css/dop_sogl.css",
+		"/Users/nikonor/work/dop_sogl.sublime-project",
+		"/Users/nikonor/#del#/q.sql",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/req.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/bricks/get_value.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/bricks/get_value",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/bricks/select.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/html/js/req.js",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/tt/req_ds.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/tt/req_edit.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/tt/req_edit_fp.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/comm_clients.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/html/css/req.css",
+		"/Users/nikonor/Library/Application Support/Evernote/external edits/178249A8-F914-48BB-A889-CBBFA6468802/req.txt",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/salesmen.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/tt/req_edit.tmpl",
+		"/Users/nikonor/Library/Application Support/Evernote/external edits/285AAC88-15DA-454D-A1B1-ADED2F0DDFCF/req.txt",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/trans.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/trans_analyze.ttmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/tt/req_list.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/schet.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/lib/OTLib/Form.pm",
+		"/Users/nikonor/#del#/req.txt",
+		"/Users/nikonor/work/simpliste/Simpliste/loko/css/style.css",
+		"/Users/nikonor/work/simpliste/Simpliste/GYW/index.html",
+		"/Users/nikonor/work/simpliste/Simpliste/GYW/css/style.css",
+		"/Users/nikonor/work/simpliste/Simpliste/loko/index.html",
+		"/Users/nikonor/work/simpliste/Simpliste/README",
+		"/Users/nikonor/work/simpliste/Simpliste/simple/css/style.css",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/tt/std_head.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/dds_prih.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/OTBC/Prices.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/everyday/cc_cat_changer.pl",
+		"/Users/nikonor/#del#/noname",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/OTLib/Form.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/tt/std_table_yellow.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/html/js/req.js",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/dds_convers.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/dds.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/everyday/cc_cat_changer.pl",
+		"/Users/nikonor/work/GAE/radi/user.py",
+		"/Users/nikonor/work/GAE/radi/verbatim_templatetag.py",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/price.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/client_price.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/prn.pl",
+		"/Users/nikonor/work/python/client-server/serv.py",
+		"/Users/nikonor/work/python/client-server/client.py",
+		"/Users/nikonor/work/python/client-server/communication.py",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Print/Head.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Print.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/test_new_pl.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/docs.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/client_price.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/bricks/get_value.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/docs_new_ajax.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/lib/OTBC/Prices.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/print.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/OTLib/MyDBI.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/test.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/client_price.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/client_price.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/templates/comm_client_tmp2.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/docs.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/plumb/cgi-bin/main/salesmen.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/wrep.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/book3.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/book3_add_mp.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/book3_mp.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/dds_deposit.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Utils.pm",
+		"/Users/nikonor/Library/Application Support/Sublime Text 2/Packages/Default/Base File.sublime-settings",
+		"/Users/nikonor/Library/Application Support/Sublime Text 2/Packages/User/Global.sublime-settings",
+		"/Users/nikonor/Library/Application Support/Sublime Text 2/Packages/Default/Global.sublime-settings",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/plat_add_mp.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/remont_bron.pl",
+		"/Users/nikonor/#del#/test.html",
+		"/Users/nikonor/work/GAE/radi/templates/index.js",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/TollXML.pm",
+		"/Users/nikonor/work/GAE/radi/app.yaml",
+		"/Users/nikonor/work/GAE/radi/index.html",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/asf.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/asf.ttmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Print/Criteria.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Print/ASF.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/tt/wr-edit.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/everyday/create_asf.pl",
+		"/Users/nikonor/umb.oiltrade.ru/numb/cgi-bin/lib/Print/Criteria.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/Print/NAKL.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/print_fields.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/print_fields.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/reports/asf_part.tmpl",
+		"/Users/nikonor/#del#/2011.html",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/nakl.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/move.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/tt/tex/pko.texmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/plat.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/tt/bonus_calc.tmpl",
+		"/Users/nikonor/#del#/cc_cat_cli_plan.sql",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/reports/ttn1_torg12.texmpl",
+		"/Users/nikonor/#del#/bootpd.plist",
+		"/Users/nikonor/work/python/yandex-python/xfer.py",
+		"/Users/nikonor/#del#/nakls_20111221.spb.html",
+		"/Users/nikonor/#del#/nakls_20111221.bel.html",
+		"/Users/nikonor/#del#/nakls_20111221.ryaz.html",
+		"/Users/nikonor/#del#/nakls_20111221.nn.html",
+		"/Users/nikonor/#del#/nakls_20111221.yar.html",
+		"/Users/nikonor/#del#/nakls_20111221.yug.html",
+		"/Users/nikonor/#del#/nakls_20111221.html",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/dds_plat_cal.tmpl",
+		"/Users/nikonor/#del#/print_fields.sql",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/lib/OTBC/DDS.pm",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/clients.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/clients_dop.tmpl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/main/ostatki.pl",
+		"/Users/nikonor/work/umb.oiltrade.ru/numb/cgi-bin/templates/ostatki.tmpl",
+		"/Users/nikonor/work/python/yandex-python/YandexMail.py"
+	],
+	"find":
+	{
+		"height": 33.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user",
+			"User",
+			"user",
+			"build_regions_tree",
+			"clients",
+			"get_salesman",
+			"$old->[0]",
+			"[0]",
+			"$new->",
+			"cli_price",
+			"class=\"debugDiv\"",
+			"edit_volume",
+			"td_actio",
+			"td_inoe",
+			"fp",
+			"<input",
+			"new_td",
+			"class=\"debugDiv\"",
+			"id=\"divMain",
+			"vol",
+			"'prof'",
+			"btnVolEdit",
+			"bntVolEdit",
+			"save_vol_str",
+			"button_cancel_vol_str",
+			"'list':[",
+			",[]",
+			"name':",
+			":",
+			"|",
+			"25%",
+			"only_our",
+			"'analyze'",
+			"analyze",
+			"'save'",
+			">",
+			"]]",
+			"[[",
+			"$q->",
+			"client_id",
+			"$vid_id",
+			"client_id",
+			"th",
+			"add_tr",
+			"Form",
+			"Form1",
+			"</pre>",
+			"<pre>",
+			" id ",
+			"id",
+			"ДС",
+			"sub list",
+			".tmpl",
+			"contact",
+			"</span>",
+			".parent()",
+			"999999",
+			"extformwidth",
+			"commit",
+			"mu",
+			"'list_price'",
+			"name",
+			"OTBC::P",
+			"sub GetRurPrice",
+			"$row[0",
+			"OTBC::P",
+			"'copy'",
+			"84",
+			"Samoa",
+			"curs",
+			"\"curs\"",
+			"curs",
+			"itempri",
+			"tmplTo",
+			"center",
+			"$rs1_hash",
+			"rollback",
+			"commit",
+			"COMMIT",
+			"'save'",
+			"}--->",
+			"<!---",
+			"//--->",
+			" //--->",
+			" --->",
+			"<!--- ",
+			"syncPL",
+			"prof'",
+			"'=",
+			"rur",
+			"\\t\\t",
+			"__subsel_spec_price",
+			"$q",
+			"231",
+			"skidka",
+			">>>>>",
+			"<!--- ",
+			"max_discount_value",
+			"data",
+			"name",
+			" //--->",
+			" --->",
+			"<!--- ",
+			" ",
+			"Отбор",
+			"//--->",
+			" --->",
+			"<!--- ",
+			"getprih",
+			"$1",
+			"unprett",
+			" --->",
+			"<!--- ",
+			"tab",
+			"after",
+			"tab",
+			"new_win",
+			"600056",
+			"&amp;",
+			"right",
+			"div id",
+			"Save",
+			"sf_me",
+			"sf_metro",
+			"sf_metro_print",
+			"илиал",
+			"$self->{data}",
+			"$param->"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"} -->",
+			"<!-- ",
+			" //-->",
+			" -->",
+			"<!-- ",
+			" //-->",
+			" -->",
+			"<!-- ",
+			" -->",
+			"<!-- ",
+			" -->",
+			"<!-- ",
+			"print_fields",
+			"cli_bonus_det",
+			"$form",
+			"$form\n$form",
+			"$form\n",
+			"$f1",
+			".prop",
+			"periodic_data_type",
+			"periodic_data",
+			"=>",
+			"id"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.yaml",
+					"settings":
+					{
+						"buffer_size": 471,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "main.py",
+					"settings":
+					{
+						"buffer_size": 2838,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "object.py",
+					"settings":
+					{
+						"buffer_size": 1076,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "st/index.js",
+					"settings":
+					{
+						"buffer_size": 2046,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "st/style.css",
+					"settings":
+					{
+						"buffer_size": 680,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/index.html",
+					"settings":
+					{
+						"buffer_size": 2379,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/nikonor/work/python/client-server/serv.py"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

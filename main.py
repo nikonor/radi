@@ -26,7 +26,7 @@ from google.appengine.ext.webapp.util import run_wsgi_app
 # use_library('django', '1.0')
 from django.utils import simplejson as json
 template.register_template_library('verbatim_templatetag')
-from user import User
+from object import Object
 
 # http://code.google.com/intl/ru/appengine/docs/python/gettingstarted/usingwebapp.html
 
@@ -77,7 +77,7 @@ class AjaxHandler(webapp.RequestHandler):
 
     # получаем данные пользователя по id
     def getUser(self,id):
-        u = User(id);
+        u = Object(id);
         ret = u.getall()
         self.response.headers['Content-Type'] = 'application/json'
         return ret

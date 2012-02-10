@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 
-class User():  
+class Object():  
     def __init__(self,id):
 
         self.data = {'id':id,
-                     'name':'Иван Петрович Сидоров',
+                     'name':'ooo Иван Петрович Сидоров',
                      "contacts":{
                          "Age":29,
                          "E-Mail":"ivan@sidorov.ru",
